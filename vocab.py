@@ -146,7 +146,8 @@ Examples:
     success = download_audio(token, args.query, args.output_dir)
     if not success:
         sys.exit(1)
-    
+
+    print("[sound:{query}.mp3]")
     print("Done!")
 
 
